@@ -7,11 +7,9 @@
     <title>Vite App</title>
   </head>
   <body
-    class="m-5 h-[100vh] rounded-xl border-[10px] border-solid border-black"
+    class="body-bg mx-3 my-2 flex h-[90vh] flex-col rounded-xl border-[10px] border-solid border-black"
   >
-    <div
-      class="flex h-[10vh] flex-col items-center justify-center bg-[#121212]"
-    >
+    <header class="flex h-[10vh] flex-col items-center justify-center bg-black">
       <div class="flex">
         <div
           class="mr-5 flex h-[3vh] w-[3vh] flex-col items-center justify-center rounded-full bg-gray-600 blur-[1px]"
@@ -24,7 +22,17 @@
         </div>
         <div class="h-[3vh] w-[25vh] rounded-full bg-black"></div>
       </div>
-    </div>
+    </header>
+    <main class="main-bg h-full">
+      <div class="h-full border-x-4 border-solid border-black"></div>
+    </main>
+    <footer class="flex h-[10vh] flex-col items-center justify-center bg-black">
+      <div class="flex w-full justify-evenly">
+        <img class="w-10" src="public/menu.svg" alt="" />
+        <img class="w-10" src="public/home.svg" alt="" />
+        <img class="w-10" src="public/arrow.svg" alt="" />
+      </div>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
