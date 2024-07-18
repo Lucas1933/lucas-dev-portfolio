@@ -26,3 +26,9 @@
   background-position: center;
   background-size: cover;
 }
+
+.me-bg {
+  background-image: url("public/lebowski.jpg");
+  background-position: center;
+  background-size: cover;
+}

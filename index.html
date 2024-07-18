@@ -9,7 +9,9 @@
   <body
     class="body-bg mx-3 my-2 flex h-[90vh] flex-col rounded-xl border-[10px] border-solid border-black"
   >
-    <header class="flex h-[10vh] flex-col items-center justify-center bg-black">
+    <header
+      class="flex h-[10vh] flex-col items-center justify-center bg-black font-semibold"
+    >
       <div class="flex">
         <div
           class="mr-5 flex h-[3vh] w-[3vh] flex-col items-center justify-center rounded-full bg-gray-600 blur-[1px]"
@@ -23,8 +25,40 @@
         <div class="h-[3vh] w-[25vh] rounded-full bg-black"></div>
       </div>
     </header>
-    <main class="main-bg h-full">
-      <div class="h-full border-x-4 border-solid border-black"></div>
+    <main
+      class="main-bg flex h-full flex-col justify-between border-x-4 border-solid border-black"
+    >
+      <header class="mt-[0.5px] flex justify-between">
+        <span id="clock" class="ml-1 text-white">06:00</span>
+        <div class="flex">
+          <img class="w-5" src="public/sound.svg" alt="" />
+          <img class="mx-1 w-5" src="public/wifi.svg" alt="" />
+          <img class="w-5" src="public/signal.svg" alt="" />
+          <span class="ml-1 text-white">60%</span>
+          <img class="mr-1 w-5" src="public/battery.svg" alt="" />
+        </div>
+      </header>
+      <section class="">
+        <div class="mb-2 flex justify-evenly font-serif font-thin text-white">
+          <div class="flex flex-col items-center justify-center">
+            <div class="me-bg h-11 w-11 rounded-md"></div>
+            <span>Quien soy</span>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <div class="rounded-md bg-black">
+              <img class="m-1 w-10" src="public/tools.svg" alt="" />
+            </div>
+
+            <span class="text-white">Tecnologias</span>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <div class="rounded-md bg-black pl-1">
+              <img class="m-1 w-10" src="public/cv.svg" alt="" />
+            </div>
+            <span>Curriculum</span>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="flex h-[10vh] flex-col items-center justify-center bg-black">
       <div class="flex w-full justify-evenly">
