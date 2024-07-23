@@ -21,7 +21,7 @@
     rgba(148, 187, 233, 1) 100%
   );
 }
-.main-bg {
+.home-bg {
   background-image: url("public/main-bg.svg");
   background-position: center;
   background-size: cover;
